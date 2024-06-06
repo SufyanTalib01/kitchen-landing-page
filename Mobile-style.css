@@ -1,0 +1,136 @@
+@media (max-width: 909px){
+    .navbar{
+        padding-inline: 36px;
+    }
+    .about-us{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .img img{
+        height: 30%;
+        width: 70%;
+    }
+    .gallery-img{
+        flex-direction: column;
+
+    }
+    .gallery img{
+        width: 531px;
+    }
+    .gallery hr{
+        width: 450px;
+    }
+    .l-image{
+        height: 800px;
+    }
+    .about-data{
+        width: 80%;
+    }
+    
+    
+
+    
+}
+
+@media (max-width: 629px){
+    /* SIDEBAR BUTTON  */
+   
+    .navbar{
+        padding-inline: 11px;
+    }
+    .right-nav a{
+        display: none;
+    }
+    .right-nav button span , #call-btn{
+        display: none;
+    }
+    .right-nav button{
+        background-color: transparent;
+        padding: 0;
+    }
+    #sidebar-icon{
+        display: block;
+        font-size: 25px;
+        color: #2F323B;
+        cursor: pointer;
+    }
+    #close-icon{
+        font-size: 25px;
+        color: #2F323B;
+        cursor: pointer;
+    }
+
+    /* INTRO DATA  */
+    .intro-data h1{
+        text-align: center;
+    }
+
+    .spn1{
+        letter-spacing: 2px;
+        font-size: 9px;
+    }
+    .spn2{
+        text-align: center;
+        font-size: 13px;
+    }
+ 
+    /* SIDEBAR  */
+    .sidebar{
+        display: none;
+
+    }
+    .sidebar ul{
+        margin: 0;
+        padding: 0;
+    }
+    .sidebar ul li{
+        padding-block: 10px;
+        margin-block: 25px;
+        list-style: none;
+        margin-inline: 30px;
+    }
+    .sidebar ul li:hover{
+        background-color: #19B4D3;
+    }
+    .sidebar ul li a{
+        font-size: 14px;
+        color: white;
+        text-decoration: none;
+    }
+
+    /* ABOUT US  */
+    
+    /* GALLERY  */
+    .gallery hr{
+        width: 81%;
+    }
+
+
+
+    /* CONTACT US  */
+    .contact-form{
+        width: 91%;
+    }
+    .gallery-img img{
+        width: 80%;
+        align-self: center;
+    }
+    .img img{
+        width: 90%;
+    }
+    .l-image{
+        height: 564px;
+    }
+
+    /* CONTACT FORM  */
+    .contact-form form input{
+        width: 85%;
+    }
+    .contact-form form textarea{
+        width: 85%;
+    }
+    .contact-form form button{
+        width: 90%;
+    }
+}
