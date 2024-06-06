@@ -54,6 +54,9 @@ body {
     margin-right: 17px;
     font-size: 14px;
 }
+.right-nav a:hover{
+    text-decoration: underline;
+}
 
 .right-nav button {
     padding: 12px 16px;
@@ -61,6 +64,7 @@ body {
     border: none;
     color: white;
     font-size: 13px;
+    cursor: pointer;
 
 }
 
@@ -135,6 +139,9 @@ body {
     background-color: #FF9603;
     border: none;
     cursor: pointer;
+}
+.intro-data button:hover{
+    background-color: #e69728;
 }
 
 /* ABOUT US DATA  */
